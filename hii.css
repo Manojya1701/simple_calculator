@@ -1,0 +1,38 @@
+.container{
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    margin: 2px;
+    padding: 3px;
+    box-shadow: grey;
+    border-radius: 80px 80px 0px 0px;
+
+}
+#result{
+    height: 30px;
+    width: 170px;
+    color:black;
+    background-color: gray;
+}
+
+*{
+    box-sizing: border-box;
+}
+.buttons{
+    flex-direction: column;
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+
+}
+.row{
+    justify-content: space-around;
+    display: flex;
+    gap:1px;
+}
+.row buttons{
+    height: 40px;
+    width: 40px;
+}
